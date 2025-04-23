@@ -3,6 +3,10 @@
     {
       "src": "/(.*)",
       "dest": "/src/pages/$1"
+    },
+    {
+      "src": "/output.css",
+      "dest": "/src/output.css"
     }
   ]
 }
